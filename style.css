@@ -61,7 +61,7 @@ a{
     align-items: center;
     justify-content: center;
     flex-direction: column;
-    height: 40vh;
+    height: 50vh;
     animation: fadeIn 4s ease-in-out;
 }
 
@@ -74,7 +74,7 @@ a{
     align-items: center;
     justify-content: center;
     flex-direction: column;
-    height: 40vh;
+    height: 50vh;
     animation: fadeIn 6s ease-in-out;
 }
 .vitrina2
@@ -86,7 +86,7 @@ a{
     align-items: center;
     justify-content: center;
     flex-direction: column;
-    height: 40vh;
+    height: 50vh;
     animation: fadeIn 8s ease-in-out;
 }
 .vitrina3
@@ -98,7 +98,7 @@ a{
     align-items: center;
     justify-content: center;
     flex-direction: column;
-    height: 40vh;
+    height: 50vh;
     animation: fadeIn 10s ease-in-out;
 }
 
