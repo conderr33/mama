@@ -1,0 +1,124 @@
+*{
+overflow: hidden;
+}
+
+.fondo {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100vw;
+    height: 100vh;
+    background-image: url('./piscina-termal-balneario-la-hermida-cantabria-1024x683.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    opacity: 0.5; /* Controla la transparencia del fondo */
+    z-index: -1;  /* Coloca el fondo detrás de todo */
+}
+
+h1 {
+    font-family: 'Georgia', serif; /* Elegante, puedes cambiar por otra */
+    font-size: 3rem;
+    color: #c0392b; /* Rojo elegante */
+    text-align: center;
+    text-shadow: 2px 2px 5px rgba(0, 0, 0, 0.3);
+    margin-top: 2rem;
+    letter-spacing: 2px;
+    animation: fadeIn 2s ease-in-out;
+}
+
+h3 {
+    font-family: 'Georgia', serif; /* Elegante, puedes cambiar por otra */
+    color: #c0392b; /* Rojo elegante */
+    text-align: center;
+    text-shadow: 2px 2px 5px rgba(0, 0, 0, 0.3);
+    margin-top: 2rem;
+    letter-spacing: 2px;
+    animation: fadeIn 3s ease-in-out;
+}
+
+.mensaje {
+    font-family: 'Georgia', serif; /* Elegante, puedes cambiar por otra */
+    color: #c0392b; /* Rojo elegante */
+    text-align: center;
+    text-shadow: 2px 2px 5px rgba(0, 0, 0, 0.3);
+    margin-top: 2rem;
+    letter-spacing: 2px;
+    animation: fadeIn 15s ease-in-out;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+a{
+    text-decoration: none;
+    color: inherit; /* hereda el color del elemento padre */
+}
+
+.vitrina
+{
+    font-family: 'Georgia', serif; /* Elegante, puedes cambiar por otra */
+    font-size: 3rem;
+    color: #c0392b; /* Rojo elegante */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    height: 60vh;
+    animation: fadeIn 4s ease-in-out;
+}
+
+.vitrina1
+{
+    font-family: 'Georgia', serif; /* Elegante, puedes cambiar por otra */
+    font-size: 3rem;
+    color: #c0392b; /* Rojo elegante */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    height: 60vh;
+    animation: fadeIn 6s ease-in-out;
+}
+.vitrina2
+{
+    font-family: 'Georgia', serif; /* Elegante, puedes cambiar por otra */
+    font-size: 3rem;
+    color: #c0392b; /* Rojo elegante */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    height: 60vh;
+    animation: fadeIn 8s ease-in-out;
+}
+.vitrina3
+{
+    font-family: 'Georgia', serif; /* Elegante, puedes cambiar por otra */
+    font-size: 3rem;
+    color: #c0392b; /* Rojo elegante */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    height: 60vh;
+    animation: fadeIn 10s ease-in-out;
+}
+
+img{
+    width: 400px;
+    height: 300px;
+}
+
+
+@keyframes fadeIn {
+    from {
+        opacity: 0;
+        transform: translateY(-20px);
+    }
+    to {
+        opacity: 1;
+        transform: translateY(0);
+    }
+}
+
