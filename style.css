@@ -4,7 +4,7 @@
     top: 0;
     left: 0;
     width: 100vw;
-    height: 100vh;
+    height: 110vh;
     background-image: url('./piscina-termal-balneario-la-hermida-cantabria-1024x683.jpg');
     background-size: cover;
     background-repeat: no-repeat;
@@ -61,7 +61,7 @@ a{
     align-items: center;
     justify-content: center;
     flex-direction: column;
-    height: 60vh;
+    height: 40vh;
     animation: fadeIn 4s ease-in-out;
 }
 
@@ -74,7 +74,7 @@ a{
     align-items: center;
     justify-content: center;
     flex-direction: column;
-    height: 60vh;
+    height: 40vh;
     animation: fadeIn 6s ease-in-out;
 }
 .vitrina2
@@ -86,7 +86,7 @@ a{
     align-items: center;
     justify-content: center;
     flex-direction: column;
-    height: 60vh;
+    height: 40vh;
     animation: fadeIn 8s ease-in-out;
 }
 .vitrina3
@@ -98,7 +98,7 @@ a{
     align-items: center;
     justify-content: center;
     flex-direction: column;
-    height: 60vh;
+    height: 40vh;
     animation: fadeIn 10s ease-in-out;
 }
 
